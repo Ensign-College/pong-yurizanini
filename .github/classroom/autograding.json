@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "AI Implementation Check",
+      "setup": "curl -O https://raw.githubusercontent.com/Ensign-College/cs375-pong/master/.tests/check_ai.py",
+      "run": "python check_ai.py",
+      "input": "",
+      "output": "Passed",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    }
+  ]
+}
