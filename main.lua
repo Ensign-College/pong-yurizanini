@@ -240,7 +240,7 @@ function love.update(dt)
     if gameState == 'play' then
         AI()
     else
-    player2.dy = 0
+        player2.dy = 0
     end
 
     -- update our ball based on its DX and DY only if we're in play state;
